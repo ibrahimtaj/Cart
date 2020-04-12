@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-container > div {
+   margin: 10px;
+}
+
+.header{
+  width: 100%;
+  height: 50px;
+  background: DodgerBlue;
+  box-sizing: border-box;
+}
+
+.footer{
+  width: 100%;
+  height: 25px;
+  background: DodgerBlue;
+  box-sizing: border-box; 
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.header span {
+  float: right;
+  padding: 1em;
+  color:#FFFFFF;
+}
+
+.Cart_content{
+  display:inline-block;
+  padding: 6px;
+  line-height: 35px;
+  background:aliceblue;
+  border: 1px solid #CCC;
+  margin: 2px;
+}
+
+.Cart_content span{
+  color: green;
+}
+
+.filters{
+float: left;
+}
+
+.btn{
+  background: gold;
+  border-radius: 10px;
+  border: none;
+  padding: 7px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.item_img img{
+  width: 150px;
+}
+
+.btn_a
+{
+  background: DodgerBlue;
+  border-radius: 10px;
+  border: none;
+  color: #FFFFFF;
+  padding: 7px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
